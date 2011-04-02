@@ -1,0 +1,21 @@
+Configuração do ambiente de trabalho no Ubuntu:
+
+Instalar lib allegro no Linux:
+1) sudo aptitude install liballegro4.2-dev
+2) cd /usr/lib
+3) ln -s liballeg-4.2.2.so liballeg.so 
+
+Compilar com g++:
+g++ Jogo.cpp -o Jogo `allegro-config --shared`
+
+-----Material Geral sobre Allegro----------
+http://equipe.nce.ufrj.br/adriano/c/apostila/allegro/docs/allegro.html
+
+Material muito bom sobre colisões. Além de mostrar também sobre colisões, temporizadores, ...
+http://www.dcc.ufrj.br/~abdalla/allegro.html
+
+Ensina como desenhar figuras, movimentar figuras com o teclado, detectar colisão de retangulos, colocar som e temporizador no jogo. Material mais completo que achei até agora.
+http://geocities.ws/weissengeist/allegro.html
+
+Sobre desenhar figuras:
+http://www.portugal-a-programar.org/forum/index.php?topic=2900.0
